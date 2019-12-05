@@ -1,0 +1,157 @@
+
+/*  Responsive Design */
+
+@media screen and (max-device-width: 500px) {
+    /* Index */
+    body {
+        margin: 0px;
+    }
+    #logoBar img
+    {
+        display: none;
+        margin-left: 0px;
+    }
+    header p {
+        display: none;
+    }
+    #banner
+    {
+        background-image: url();
+        width: 100%;
+        float: left;
+        height: 500px;
+    }
+    #banner img
+    {
+        display: none;
+    }
+    #bannerLeft
+    {
+        display: none;
+    }
+    #photoLinks
+    {
+        display: none;
+    }
+    #kinds
+    {
+        display: none;
+    }
+    #bannerRight
+    {
+        width: 100%;
+        float: left;
+        height: 500px;
+    }
+    #appForm
+    {
+        display: none;
+        padding: 0px;
+    }
+    #description
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+        float: left;
+        height: 500px;
+        width: 100%;
+        margin: 0px;
+    }
+    #description p, #description h3
+    {
+        margin: 10%;
+    }
+    #banner #description h3
+    {
+        font-size: 35px;
+    }
+    #banner #description p
+    {
+        font-size: 30px;
+        color: black;
+    }
+    #greyBlock
+    {
+        margin-top: 20px;
+    }
+    #tableTitle
+    {
+        padding: 0px;
+        height: 100px;
+    }
+    table
+    {
+        width: 100%;
+        margin: 0px;
+        margin-top: 40px;
+    }
+    table tr td
+    {
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: solid 1px black;
+    }
+    table th{
+        border-top: solid 1px black;
+        border-bottom: solid 1px black;
+        font-size: 20px;
+    }
+    table th #tableIcon
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+    }
+    table tr #others
+    {
+        padding-left: 0px;
+    }
+
+    footer
+    {
+        padding-bottom: 10px;
+    }
+
+        /*   Navigation  */
+    #nav
+    {
+	    width: 100%;
+	    background-color: #4d8eb7;
+        position: fixed;
+    }
+    #burger
+    {
+        float: right;
+        height: 45px;
+        width: 45px;
+        background-color: #f8ab35;
+        border-style: none;
+        margin: 5px;
+        padding: 0px;
+    }
+    #nav ul
+    {
+        width: 100%;
+        padding: 0px;
+    }
+    .navLiBurger
+    {
+        width: 100%;
+        display: block;
+        position: sticky;
+        border-top: white solid 1px;
+        border-bottom: none;
+    }
+    #bLogo
+    {
+        margin: 2px;
+    }
+    .navLiBurger a
+    {
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+}
